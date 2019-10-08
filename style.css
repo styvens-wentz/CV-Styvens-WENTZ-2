@@ -1,0 +1,60 @@
+body {
+    background-size: 100%; height: 900px;
+    background: linear-gradient(135deg, rgba(76, 76, 76, 1) 0%, rgba(89, 89, 89, 1) 12%, rgba(102, 102, 102, 1) 25%, rgba(71, 71, 71, 1) 39%, rgba(44, 44, 44, 1) 50%, rgba(0, 0, 0, 1) 51%, rgba(17, 17, 17, 1) 60%, rgba(43, 43, 43, 1) 76%, rgba(28, 28, 28, 1) 91%, rgba(19, 19, 19, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+}
+
+.CV {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: blue 2px solid;
+    padding-right: 5%;
+    padding-left: 5%;
+    min-width: 600px;
+    max-width: 900px;
+}
+
+.Nom {
+    text-align: center;
+    color: red;
+    font-family: Calibri, serif;
+    font-size: 50px
+}
+
+.info {
+    text-align: center;
+}
+
+#Ex {
+    background-color: rgba(0, 0, 255, 0.50);
+    border: 1.4px solid black;
+    padding-left: 0.3em;
+    height: 30px;
+    margin-top: 50px;
+    padding-top: 5px;
+}
+
+#dateEx1 {
+    background-color: rgba(0, 0, 255, 0.20);
+    padding-left: 0.3em;
+}
+
+#lieuEx1 {
+    float: right;
+    padding-right: 0.3em;
+}
+
+#dateEx2 {
+    background-color: rgba(0, 0, 255, 0.20);
+    padding-left: 0.3em;
+}
+
+#lieuEx2 {
+    float: right;
+    padding-right: 0.3em;
+}
+
+p {
+    padding-left: 2.5em;
+}
