@@ -18,9 +18,10 @@ body {
 
 .Nom {
     margin-right: 9%;
+    padding-top: 7px;
     text-align: center;
     color: lightgray;
-    text-shadow: 10px -5px 6px;
+    text-shadow: 5px -5px 6px;
     font-family: 'Istok Web', sans-serif;
     font-size: 50px
 }
@@ -29,13 +30,14 @@ body {
     text-align: center;
     font-family: 'IBM Plex Sans', sans-serif;
     margin-right: 9%;
+    margin-top: -12px;
 }
 
 .entPri {
     background: radial-gradient(ellipse at center, rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%);
     padding-bottom: 12px;
     border-radius: 1em;
-    box-shadow: 0 0 20px rgba(83,159,225,0.5);
+    box-shadow: 0 0 20px rgba(83,159,225,1);
 }
 
 .entEx {
@@ -70,9 +72,10 @@ body {
 }
 
 h3 {
-    background: linear-gradient(to right, rgba(30,87,153,0.61) 0%,rgba(89,148,202,0.44) 62%,rgba(97,156,208,0.16) 70%,rgba(125,185,232,0) 100%);
+    background: linear-gradient(to right, rgba(30,87,153,0.70) 0%,rgba(89,148,202,0.60) 62%,rgba(97,156,208,0.40) 70%,rgba(125,185,232,0.20) 100%);
     border-radius: 20px;
     padding-left: 0.5em;
+    box-shadow: 1px -1px 20px rgba(125,185,232,0.70);
 }
 
 span {
@@ -91,13 +94,13 @@ li {
     float: left;
     margin: 10px;
     border-radius: 5em;
-    box-shadow: 0 0 15px;
+    box-shadow: 2px -2px 15px;
 }
 
 .logo{
     display: inline-block;
     float: right;
-    margin-top: -143px;
+    margin-top: -142px;
     margin-right: 10px;
     line-height: 40px;
 }
