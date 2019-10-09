@@ -19,14 +19,15 @@ body {
 .Nom {
     margin-right: 9%;
     text-align: center;
-    color: red;
-    font-family: Calibri, serif;
+    color: lightgray;
+    text-shadow: 10px -5px 6px;
+    font-family: 'Istok Web', sans-serif;
     font-size: 50px
-
 }
 
 .info {
     text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
     margin-right: 9%;
 }
 
@@ -58,6 +59,16 @@ body {
     box-shadow: 0 0 5px;
 }
 
+.entCo {
+    background: linear-gradient(135deg, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+    border: black solid 2px;
+    border-radius: 20px;
+    padding-left: 0.3em;
+    height: 30px;
+    padding-top: 5px;
+    box-shadow: 0 0 5px;
+}
+
 h3 {
     background: linear-gradient(to right, rgba(30,87,153,0.61) 0%,rgba(89,148,202,0.44) 62%,rgba(97,156,208,0.16) 70%,rgba(125,185,232,0) 100%);
     border-radius: 20px;
@@ -70,8 +81,10 @@ span {
     padding-right: 0.3em;
 }
 
-p {
-    padding-left: 2.5em;
+li {
+    margin-left: 2em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
 }
 
 #photo {
@@ -87,4 +100,23 @@ p {
     margin-top: -143px;
     margin-right: 10px;
     line-height: 40px;
+}
+
+h4 {
+    text-decoration: underline;
+    color: cadetblue;
+    background: linear-gradient(to right, rgba(30,87,153,0.19) 0%,rgba(125,185,232,0) 100%);
+    padding-left: 0.5em;
+    border-radius: 2em;
+}
+
+.L1 {
+    display: inline-block;
+    margin-right: 65px;
+    margin-bottom: 10px;
+}
+
+.L2 {
+    float: right;
+    vertical-align: top;
 }
