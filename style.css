@@ -1,6 +1,7 @@
 body {
     background: linear-gradient(135deg, rgba(76, 76, 76, 1) 0%, rgba(89, 89, 89, 1) 12%, rgba(102, 102, 102, 1) 25%, rgba(71, 71, 71, 1) 39%, rgba(44, 44, 44, 1) 50%, rgba(0, 0, 0, 1) 51%, rgba(17, 17, 17, 1) 60%, rgba(43, 43, 43, 1) 76%, rgba(28, 28, 28, 1) 91%, rgba(19, 19, 19, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1);
+    min-height: 835px;
+;
 }
 
 .CV {
@@ -14,6 +15,8 @@ body {
     min-width: 600px;
     max-width: 900px;
     box-shadow: 0 0 20px white ;
+    padding-bottom: 20px;
+    margin-bottom: 5%;
 }
 
 .Nom {
@@ -132,17 +135,108 @@ h4 {
     height: 30px;
     padding-top: 5px;
     box-shadow: 0 0 5px;
+
 }
 
 #nom {
     margin-right: 20px;
     margin-left: 6px;
+    border-radius: 10px;
+}
+
+#prenom {
+    border-radius: 10px;
 }
 
 #mail {
     margin-right: 20px;
+    border-radius: 10px;
 }
 
 #sexe {
-    margin-left: 18px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: inset;
+}
+
+.formulaire {
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding-top: 2%;
+}
+
+legend {
+    background: linear-gradient(to right, rgba(30,87,153,0.70) 0%,rgba(89,148,202,0.60) 62%,rgba(97,156,208,0.40) 70%,rgba(125,185,232,0.20) 100%);
+    border-radius: 10px;
+}
+
+fieldset {
+    border-radius: 10px;
+    border: inset 5px;
+    border-color: rgba(89,148,202,0.60)
+}
+
+#envoyer {
+    font-family: "Arial Black", serif;
+    color: aliceblue;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: ridge rgba(30,87,153,0.40);
+    background-color: rgba(30,87,153,0.60);
+    border-radius: 10px;
+}
+
+#effacer {
+    font-family: "Arial Black", serif;
+    color: aliceblue;
+    border: ridge rgba(30,87,153,0.40);
+    background-color: rgba(30,87,153,0.60);
+    border-radius: 10px;
+}
+
+.afficherForm, .masquerForm {
+    display:block;
+}
+.afficherForm + .masquerForm,
+.afficherForm ~#form,
+.afficherForm:focus {
+    position:fixed;
+    opacity: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+.afficherForm:focus + .masquerForm ,
+.afficherForm:focus ~ #form {
+    opacity:1;
+    position:relative;
+}
+
+.afficherComp, .masquerComp {
+    display:block;
+}
+.afficherComp + .masquerComp,
+.afficherComp ~#comp,
+.afficherComp:focus {
+    position:fixed;
+    opacity: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+.afficherComp:focus + .masquerComp ,
+.afficherComp:focus ~ #comp {
+    opacity:1;
+    position:relative;
+}
+
+.afficherExp, .masquerExp {
+    display:block;
+}
+.afficherExp + .masquerExp,
+.afficherExp ~#exp,
+.afficherExp:focus {
+    position:fixed;
+    opacity: 1;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+.afficherExp:focus + .masquerExp ,
+.afficherExp:focus ~ #exp {
+    opacity:1;
+    position:relative;
 }
