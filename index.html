@@ -18,7 +18,7 @@
     <div class="entPri">
         <img id="photo" src="https://lh3.googleusercontent.com/-7l52rgNTnmo/VNOVJnEESNI/AAAAAAAACvg/ED1y9zl_bm07Xpkx466dXgj-YAdQyCnjwCEwYBhgL/w140-h140-p/f0c2fd8b-9bff-4e95-8925-d8e651347066" alt="Ma photo">
         <h1 class="Nom">Styvens WENTZ</h1>
-        <div class="info"> 875 Rue Jean Machin 59212 Wignehies <br> <a href="tel:0645488824"><img src="https://image.flaticon.com/icons/png/512/39/39995.png" height="15" width="15" alt="téléphone"></a>  07.00.08.87.87 | <a target="_blank" href="https://outlook.live.com/mail/inbox"><img src="https://i2.wp.com/www.ucaubenas.com/wp-content/uploads/email-logo.png?fit=256%2C256" height="15" width="15" alt="mail"></a> styvens.wentz@bidule.com <br> 25 ans - Permis B + Véhicule</div>
+        <div class="info"> 875 Rue Jean Machin 59212 Wignehies <br> <a href="tel:0645488824"><img src="https://image.flaticon.com/icons/png/512/39/39995.png" height="15" width="15" alt="téléphone"></a>  07.00.08.87.87 | <a target="_blank" href="mailto:styvens-wentz@hotmail.fr"><img src="https://i2.wp.com/www.ucaubenas.com/wp-content/uploads/email-logo.png?fit=256%2C256" height="15" width="15" alt="mail"></a> styvens.wentz@bidule.com <br> 25 ans - Permis B + Véhicule</div>
         <div class="logo">
             <a target="_blank" href="https://www.facebook.com/styvensWS"><img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=256&h=256" height="40" width="40" alt="Mon facebook"></a>
             <br>
@@ -149,9 +149,45 @@
             </ul>
         </div>
 
-
     </div>
 
+    <div> <h2 class="entCont"> CONTACT </h2>
+
+        <div>
+
+            <form method="post" action="mailto:styvens-wentz@hotmail.fr">
+                <fieldset>
+                    <legend>Vos coordonnées</legend>
+                    <p>
+                        <label for="nom">Nom</label> : <input required type="text" name="user_nom" id="nom" placeholder="Ex: Berger"/>
+                        <label for="prenom">Prénom</label> : <input required type="text" name="user_prenom" id="prenom" placeholder="Ex: Michel"/>
+                        <br>
+                        <br>
+                        <label for="mail">Email</label> : <input required type="email" name="user_mail" id="mail" placeholder="exemple@exemple.fr"/>
+                        <label for="sexe">Sexe</label> :
+                        <select required name="user_sexe" id="sexe" >
+                                <option value="" selected></option>
+                                <option value="homme">Homme</option>
+                                <option value="femme">Femme</option>
+                                <option value="je ne sais pas">Je ne sais pas</option>
+                        </select>
+                    </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Votre Message</legend>
+                    <p>
+                        <label for="message"></label><textarea required name="message" id="message" rows="20" cols="80" placeholder="Taper votre message ici" minlength="20"></textarea>
+                    </p>
+                </fieldset>
+                <br>
+                <input type="submit" value="Envoyer" /> <input type="reset" value="Effacer" />
+            </form>
+
+        </div>
+
+
+    </div>
 
 </div>
 
