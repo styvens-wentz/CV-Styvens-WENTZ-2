@@ -232,7 +232,7 @@ fieldset {
 .afficherExp ~#exp,
 .afficherExp:focus {
     position:fixed;
-    opacity: 1;
+    opacity: 0;
     clip: rect(1px, 1px, 1px, 1px);
 }
 .afficherExp:focus + .masquerExp ,
